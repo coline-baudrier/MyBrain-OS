@@ -1,0 +1,18 @@
+# Node
+node_modules/
+dist/
+
+# Environnements
+.env
+*.env
+
+# Expo
+.expo/
+frontend/.expo-shared/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
