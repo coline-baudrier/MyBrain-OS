@@ -23,10 +23,14 @@ Développée comme projet personnel, l’objectif est un **déploiement complet 
 - [ ] Ajouter un souvenir (texte, photo, musique, humeur, citation, livre, etc.)
 - [ ] Visualiser les souvenirs par jour/mois/année
 - [ ] Recherche et filtres
-- [ ] Statistiques d’humeur (diagrammes, tendances)
+- [ ] Utilisation de tags
 - [ ] Export/Import des données
 - [ ] Authentification (JWT)
 - [ ] Mode sombre
+
+### Optionnelles
+
+- [ ] Statistiques d’humeur (diagrammes, tendances)
 - [ ] Notifications (optionnel)
 - [ ] Intégrations externes (Spotify, Goodreads, etc.)
 - [ ] Accessibilité améliorée
@@ -136,6 +140,12 @@ Utilise MySQL avec **TypeORM**.
 - `Memory_Tag`: memory_id, tag_id (relation N:N)
 
 > 👉 Des migrations et des seeds seront intégrés pour faciliter les tests et le déploiement.
+
+---
+
+### 🗃️ Liste des endpoints API
+
+> Catégorie mise à jour quand la base de données aura été parfaitement définies.
 
 ---
 
