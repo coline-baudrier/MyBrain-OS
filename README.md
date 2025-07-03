@@ -18,26 +18,6 @@ Développée comme projet personnel, l’objectif est un **déploiement complet 
 
 ---
 
-## 🧩 Fonctionnalités prévues
-
-- [ ] Ajouter un souvenir (texte, photo, musique, humeur, citation, livre, etc.)
-- [ ] Visualiser les souvenirs par jour/mois/année
-- [ ] Recherche et filtres
-- [ ] Utilisation de tags
-- [ ] Export/Import des données
-- [ ] Authentification (JWT)
-- [ ] Mode sombre
-
-### Optionnelles
-
-- [ ] Statistiques d’humeur (diagrammes, tendances)
-- [ ] Notifications (optionnel)
-- [ ] Intégrations externes (Spotify, Goodreads, etc.)
-- [ ] Accessibilité améliorée
-- [ ] Thèmes personnalisables
-
----
-
 ## ⚙️ Installation
 
 ### Prérequis
@@ -59,14 +39,6 @@ npm run start:backend
 # Démarrer le frontend (Expo)
 npm run start:frontend
 ```
-
-> 💡 Si tu travailles avec des `.env`, assure-toi de les configurer dans les deux parties du projet.
-
----
-
-## 📱 Utilisation
-
-> Cette section sera enrichie après la mise en place des premières fonctionnalités UI/UX.
 
 ---
 
@@ -130,7 +102,7 @@ Basé sur NestJS, le backend fournit les endpoints de l'API REST et gère la log
 
 ### 🗃️ Base de données
 
-Utilise MySQL avec **TypeORM**.
+Utilise MySQL.
 
 #### Exemple de schéma (simplifié) :
 
@@ -140,12 +112,6 @@ Utilise MySQL avec **TypeORM**.
 - `Memory_Tag`: memory_id, tag_id (relation N:N)
 
 > 👉 Des migrations et des seeds seront intégrés pour faciliter les tests et le déploiement.
-
----
-
-### 🗃️ Liste des endpoints API
-
-> Catégorie mise à jour quand la base de données aura été parfaitement définies.
 
 ---
 
@@ -185,21 +151,6 @@ Le déploiement s’effectuera via une **pipeline CI/CD** (GitHub Actions ou Git
 
 - Le **backend** expose des endpoints pour créer, récupérer et filtrer les souvenirs.
 - Le **frontend** consomme cette API et affiche une interface intuitive pour naviguer dans ses souvenirs.
-- Les données sont synchronisées en ligne, mais une stratégie de cache/local storage est prévue pour les utiliser hors ligne.
-
----
-
-## 📅 Roadmap / TODO
-
-| Tâche                        | État        |
-| ---------------------------- | ----------- |
-| Choisir la base de données   | ✅ MySQL    |
-| Définir le modèle de données | 🔄 En cours |
-| UI/UX - Maquettes Figma      | 🔲 À faire  |
-| Authentification JWT         | 🔲 À faire  |
-| Mise en place CI/CD          | 🔲 À faire  |
-| Intégration souvenirs        | 🔲 À faire  |
-| Statistiques d’humeur        | 🔲 À faire  |
 
 ---
 

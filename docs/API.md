@@ -261,3 +261,9 @@ export class AppModule {}
 | `service.ts`    | Logique métier                                |
 | `controller.ts` | Routes API REST                               |
 | `app.module.ts` | Fournisseur MySQL via `createPool()`          |
+
+---
+
+# Liste des endpoints API
+
+> A alimenter au fur et à mesure de la création
