@@ -1,5 +1,14 @@
 # 🧠 User Story : [titre résumé de l'objectif]
 
+> 🔖 **Nom de l’issue GitLab conseillé** :  
+> `US [Scope] - [Résumé clair et concis]`  
+> _Exemples :_  
+> `US Front - Sélectionner humeur du jour`  
+> `US Back - Sauvegarder une journée complète en DB`  
+> `US API - Récupérer souvenirs filtrés par date`
+
+---
+
 ## 🎯 En tant que…
 
 > [Décris le rôle de l’utilisateur cible]
@@ -53,6 +62,6 @@
 ## 🏷️ Infos projet
 
 - **Type** : `user-story`
-- **Labels** : `frontend`, `backend`, `API`, `MVP`, `V1` (à adapter)
-- **Milestone** : `MVP` / `V1`
-- **Liée à la Story** : `[copie du titre dans USER_STORIES.md]`
+- **Labels** : `frontend`, `backend`, `API`, `MVP`, `V1` (à adapter selon contexte)
+- **Milestone** : `MVP` / `V1` / `futur`
+- **Liée à la Story** : `[copie exacte du titre depuis USER_STORIES.md]`
